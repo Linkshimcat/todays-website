@@ -1,4 +1,4 @@
-# todays-web
+# todays-website
 **HTML, CSS, JavaScript (other Frame work) - Study📚 &amp; 🐱 Test**
 
 > [!NOTE]
