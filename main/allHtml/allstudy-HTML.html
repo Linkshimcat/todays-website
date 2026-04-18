@@ -14,6 +14,7 @@
 
     <!-- <h1>태그 소개 -->
     <div>
+    <fieldset>
     <h1>h1 태그</h1>
     <code>h1제목 태그: &lt;h1&gt;여는 태그 (내용 입력)
     닫는 태그&lt;/h1&gt;</code>
@@ -32,45 +33,65 @@
     <h6>h6 제목 입니다!</h6>
     <code>h6제목 태그: &lt;h6&gt;여는 태그 (내용 입력)
     닫는 태그&lt;/h6&gt;</code>
-    </div><br><hr>
+    </fieldset>
+    </div><br>
 
     <!-- <p>태그 소개 -->
     <div>
-        <h2># p태그</h2>
+        <fieldset>
+        <h2># p태그</h2><hr>
         <p>p는 문단 태그 입니다.</p>
         <code>&lt;p&gt;(내용)&lt;/p&gt;</code>
-    </div><br><hr>
+        </fieldset>
+    </div><br>
 
-    <!-- 이미지  -->
+    <!-- 멀티미디어  -->
      <div>
-        <h2># 이미지 태그</h2>
-        <img src="img/ㅎㅊㅍ배경화면.png" alt="teenieping" width="300px;">
+        <fieldset>
+        <h2># 🖼️이미지 태그</h2>
+        <img src="MultiMedia/ㅎㅊㅍ배경화면.png" alt="teenieping" width="300px;">
         <caption>👈이게 사진임.</caption>
         <br><br>
-        <code>&lt;img src="파일 경로" alt="사진 간략설명" width="크기"&gt;</code>
-    </div><br><hr>
+        <code>&lt;img src="파일 경로" alt="사진 간략설명" width="크기"&gt;</code><br><br><hr>
+        <h2># 📺동영상 태그</h2>
+        <video  src="MultiMedia/bg.mp4" width="300px;" controls></video>
+        <caption>👈이게 영상임.</caption>
+        <br><br>
+        <code>&lt;video src="파일 경로" controls width="크기"&gt;</code><br><br><hr>
+        <h2># 🔊오디오 태그</h2>
+        <audio  src="MultiMedia/vine-boom-392646.mp3" controls></audio>
+        <caption>👈이게 소리임.</caption>
+        <br><br>
+        <code>&lt;audio src="파일 경로" controls&gt;</code><br><br>
+        </fieldset>
+    </div><br>
 
     <!--href링크 태그-->
     <div>
-        <h2># href링크 태그</h2>
+        <fieldset>
+        <h2># href링크 태그</h2><hr>
         <p><a href="https://www.youtube.com/">유튜브 링크.</a></p>
         <code>&lt;a href="링크 주소"&gt;</code>
-    </div><br><hr>
+        </fieldset>
+    </div><br>
 
     <!--Strong/em 텍스트-->
     <div>
+        <fieldset>
         <h2># Strong 태그</h2>
         <p><strong>아주 강한 텍스트! ㅇㅈㅅ</strong></p>
         <code>&lt;strong&gt;(텍스트 입력)&lt;/strong&gt;</code>
-        <br><br>
+        <br><br><hr>
         <h2># em 태그</h2>
         <p><em>이 텍스트는 기울어있어요!</em></p>
         <code>&lt;em&gt;(텍스트 입력)&lt;/em&gt;</code>
-    </div><br><hr>
+        </fieldset>
+    </div><br>
 
     <!--table 표-->
     <div>
-        <h2># Table 태그</h2>
+        <fieldset>
+        <h2># Table 태그</h2><hr>
         <table border="1px;">
             <tr>
                 <th>1기</th>
@@ -90,11 +111,13 @@
             <li><code>&lt;th&gt;:(table header) 제목 셀 (굵고 표시 되고 가운데 정렬)</code></li><br>
             <li><code>&lt;td&gt;:(table data) 테이블의 일반 데이터 셀.</code></li>
         </ol>
-    </div><hr>
+        </fieldset>
+    </div><br>
 
     <!-- form 태그-->
      <div>
-     <h2><strong># Form 태그</strong></h2>
+    <fieldset>
+     <h2><strong># Form 태그</strong></h2><hr>
      <form>
         <fieldset style="border-radius: 16px; border-color:black">
             <legend>Test Form</legend>
@@ -133,8 +156,13 @@
                 <button>Button</button>
             </label>
         </fieldset>
+        </fieldset>
      </form>
      </div><br><hr>
+
+     <div>
+        <h4>💡: Done Date: 2026.4.19.(AM)2:16✅</h4>
+     </div>
 
 </body>
 </html>
